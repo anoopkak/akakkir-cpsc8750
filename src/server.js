@@ -14,6 +14,7 @@ app.use(cookieParser());
 const port = process.env.PORT || 3000;
 
 let nextVisitorId = 1;
+
 // The main page of our website
 app.get('/', (req, res) => {
     cookie = req.cookies;
